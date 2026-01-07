@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 15:16:40 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 16:37:54 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/07 17:57:58 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,16 +38,16 @@ Brain::~Brain(){
 }
 
 void	Brain::setIdea(int index, std::string idea){
-	if (index >= 0 && index <= 100){
+	if (index >= 0 && index < 100){
 		_ideas[index] = idea;
 	}
 	else
 		return;
 }
 
-std::string	Brain::getIdea(int index){
-	if (index >= 0 && index <= 100){
+std::string	Brain::getIdea(int index) const{
+	if (index >= 0 && index < 100){
 		return (_ideas[index]);
 	}
-	return (NULL);
+	return ("");
 }

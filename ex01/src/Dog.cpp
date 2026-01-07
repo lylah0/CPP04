@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 11:31:58 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 18:01:06 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/07 17:31:00 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ Dog::Dog(){
 
 Dog::Dog(const Dog& src) : Animal(src){
 	_type = "Dog";
+	_brain = new Brain(*src._brain);
 	std::cout << "Dog copy constructor called." << std::endl;
 }
 

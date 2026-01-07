@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 10:46:19 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 16:35:45 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/07 17:49:43 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class Brain{
 		~Brain();
 
 		void		setIdea(int index, std::string idea);
-		std::string	getIdea(int index);
+		std::string	getIdea(int index) const;
 };
 
 #endif
