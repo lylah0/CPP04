@@ -6,11 +6,11 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 10:54:09 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 15:08:54 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 15:27:47 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../Animal.hpp"
+#include "Animal.hpp"
 
 Animal::Animal() : _type("Animal"){
 	std::cout << "Animal constructor called." << std::endl;

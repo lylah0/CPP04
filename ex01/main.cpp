@@ -6,14 +6,14 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 15:19:55 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/07 18:08:29 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 15:28:12 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../Animal.hpp"
-#include "../Cat.hpp"
-#include "../Dog.hpp"
-#include "../Brain.hpp"
+#include "Animal.hpp"
+#include "Cat.hpp"
+#include "Dog.hpp"
+#include "Brain.hpp"
 
 int main() {
 

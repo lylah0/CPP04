@@ -6,11 +6,11 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 15:16:40 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/07 17:57:58 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 15:27:51 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../Brain.hpp"
+#include "Brain.hpp"
 
 Brain::Brain(){
 	std::cout << "Brain constructor called." << std::endl;

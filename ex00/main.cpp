@@ -6,15 +6,15 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 11:36:38 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 13:07:18 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 15:18:30 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../Animal.hpp"
-#include "../Cat.hpp"
-#include "../Dog.hpp"
-#include "../WrongAnimal.hpp"
-#include "../WrongCat.hpp"
+#include "Animal.hpp"
+#include "Cat.hpp"
+#include "Dog.hpp"
+#include "WrongAnimal.hpp"
+#include "WrongCat.hpp"
 
 int	main(){
 	const Animal*		a = new Animal();

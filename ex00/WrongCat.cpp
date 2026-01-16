@@ -1,29 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   WrongAnimal.cpp                                    :+:      :+:    :+:   */
+/*   WrongCat.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/06 12:47:51 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 12:56:54 by lylrandr         ###   ########.fr       */
+/*   Created: 2026/01/06 12:52:02 by lylrandr          #+#    #+#             */
+/*   Updated: 2026/01/16 15:18:36 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../WrongAnimal.hpp"
+#include "WrongCat.hpp"
 
-WrongAnimal::WrongAnimal() : _type("WrongAnimal"){
-	std::cout << "WrongAnimal constructor called." << std::endl;
+WrongCat::WrongCat(){
+	_type = "WrongCat";
+	std::cout << "WrongCat constructor called." << std::endl;
 }
 
-WrongAnimal::~WrongAnimal(){
-	std::cout << "WrongAnimal destructor called." << std::endl;
+WrongCat::~WrongCat(){
+	std::cout << "WrongCat destructor called." << std::endl;
 }
 
-std::string	WrongAnimal::getType() const{
-	return(_type);
-}
-
-void	WrongAnimal::makeSound() const{
-	std::cout << "Wrong animal noises." << std::endl;
+void	WrongCat::makeSound() const{
+	std::cout << "Wrong cat noises." << std::endl;
 }
