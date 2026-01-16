@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 15:19:55 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/16 15:28:12 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 17:48:09 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,12 @@ int main() {
 	for(int i = 0; i < 6; i++){
 		if (i < 3){
 			animals[i] = new Cat();
+			std::cout << "---";
 			animals[i]->makeSound();
 		}
 		else{
 			animals[i] = new Dog();
+			std::cout << "---";
 			animals[i]->makeSound();
 		}
 	}

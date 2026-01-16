@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 10:46:19 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/06 12:04:58 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 18:09:00 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Animal {
 		Animal&	operator=(const Animal& rhs);
 		virtual	~Animal();
 
-		std::string	getType() const;
+		std::string		getType() const;
 		virtual void	makeSound() const;
 };
 

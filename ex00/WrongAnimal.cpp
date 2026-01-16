@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 12:47:51 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/16 15:18:33 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 17:21:15 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ std::string	WrongAnimal::getType() const{
 }
 
 void	WrongAnimal::makeSound() const{
-	std::cout << "Wrong animal noises." << std::endl;
+	std::cout << "Wroom wroom" << std::endl;
 }

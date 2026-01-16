@@ -6,7 +6,7 @@
 /*   By: lylrandr <lylrandr@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 12:52:02 by lylrandr          #+#    #+#             */
-/*   Updated: 2026/01/16 15:18:36 by lylrandr         ###   ########.fr       */
+/*   Updated: 2026/01/16 17:21:02 by lylrandr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ WrongCat::~WrongCat(){
 }
 
 void	WrongCat::makeSound() const{
-	std::cout << "Wrong cat noises." << std::endl;
+	std::cout << "Woof ?" << std::endl;
 }
